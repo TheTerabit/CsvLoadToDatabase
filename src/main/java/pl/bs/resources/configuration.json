@@ -1,0 +1,14 @@
+{
+
+  "sourceIp": "127.0.0.1",
+  "sourcePath": "/www/",
+  "sourceUsername": "paul",
+  "sourcePassword": "password123",
+
+  "destinationIp": "127.0.0.1",
+  "destinationPath": "/www2/",
+  "destinationUsername": "paul",
+  "destinationPassword": "password123",
+
+  "transferFrequencyInSeconds": 5
+}
