@@ -31,9 +31,11 @@ In the future usernames and passwords will be given to the program with a standa
 2. This class must extend class Records and implement method getAllAtributes().
 3. Method getAllAtributes() must return part of the SQL query with the values only, needed to insert records e.g. "('1','this is description', 'Active State', '123456789')". You can see other entities to check what they return.
 4. Add this else if statment to method pickAccurateModel() in fileTransfer/ModelCreator.java class:
-```else if (fileName.contains("regexp to recognize the file")) {
+```
+else if (fileName.contains("regexp to recognize the file")) {
       modelClass = YourEntity.class;
       tableName = "Name of the database table";      
-   }```
+}
+```
    
    
